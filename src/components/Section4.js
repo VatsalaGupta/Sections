@@ -1,42 +1,44 @@
+
 import React from 'react'
 
 const Section4 = () => {
   return (
     <div>
-        <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto "> <h1 className="sm:w-3/5 text-gray-900 font-medium title-font text-4xl text-centre sm:mb-0 ml-80">Ready To Start Your Project Or Have A Question ?</h1>
-                     <p className="mt-6  ml-96">We ensure that your website gets valuble traffic that converts into leads</p>
-                    <div className="flex flex-col mt-10 ">
-                        <div className="flex flex-wrap sm:flex-row  py-6 ">
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 m-6">
-                        <div className="p-4 md:w-1/3 sm:mb-0 mb-6 shadow-lg   hover:bg-gray-100">
-                            <div className="rounded-lg h-64 overflow-hidden">
-                                <img alt="content" className="m-10 ml-40 object-fill h-30 w-50 object-center " src="./Images/1.png" />
-                                <p className="text-center text-cyan-600">+91 xxxxxxxxx</p>
-                                <p className='text-center pt-4 text-sm/[17px] text-cyan-600'>we provide 24*7 support over phone calls</p>
-                            </div>
-                        </div>
-                        <div className="p-4 md:w-1/3 sm:mb-0 mb-6 shadow-lg   hover:bg-gray-100">
-                            <div className="rounded-lg h-64 overflow-hidden">
-                                <img alt="content" className="m-10 ml-40 object-fill h-30 w-50 object-center " src="./Images/2.png" />
-                                <p className='text-center text-cyan-600'>ntechy@gmail.com</p>
-                                <p className=' text-center pt-4 text-sm/[17px] text-cyan-600'>It is a long established fact that a reader will be distracted</p>
-                            </div>
+    <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">Ready To Start Your Project Or Have A Question ?</h1>
+            <p className="sm:text-sm text-2xl font-medium title-font mb-4 text-gray-900 text-center">We ensure that your website gets valuble traffic that converts into leads</p>
+            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div className="rounded-lg h-64 overflow-hidden shadow-lg" style={{ paddingLeft: "20%" }}>
+                        <img alt="content" className="object-fill object-center" src="./Images/1.png" />
+                        <h1 class="sm:text-xl text-xl font-medium title-font mb-4 text-center text-gray-900">+91 xxxxxxxxx</h1>
+                        <p class="sm:text-sm text-sm  font-medium title-font mb-4 text-center text-gray-900">we provide 24*7 support over phone calls</p>
 
-                        </div>
-                        <div className="p-4 md:w-1/3 sm:mb-0 mb-6 shadow-lg   hover:bg-gray-100">
-                            <div className="rounded-lg h-64 overflow-hidden">
-                                <img alt="content" className="m-10 ml-40 object-fill h-30 w-50 object-center" src="./Images/3.png" />
-                                <p className='text-center text-cyan-600'>head Office</p>
-                                <p className=' text-center pt-4 text-sm/[17px] text-cyan-600'>Danstring Technologies Pvt.Ltd :</p>
-                            </div>
-                        </div>
                     </div>
+
+
                 </div>
-            </section>
-    </div>
+                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div className="rounded-lg h-64 overflow-hidden shadow-lg " style={{ paddingLeft: "20%" }}>
+                        <img alt="content" className=" object-fill object-center" src="./Images/2.png" />
+                        <a href="#" className="sm:text-xl text-xl font-medium title-font mb-4 text-center  text-blue-600 dark:text-blue-500 hover:underline">ntechy@gmail.com</a>
+                        <h1 class="sm:text-2xl text-sm font-medium title-font mb-4 text-center text-gray-900">It is a long established fact that a reader will be distracted</h1>
+                    </div>
+
+                </div>
+                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div className="rounded-lg h-64 overflow-hidden shadow-lg" style={{ paddingLeft: "20%" }}>
+                        <img alt="content" className="object-fill object-center" src="./Images/3.png" />
+                        <h1 class="sm:text-sm text-sm font-medium title-font mb-4 text-center text-gray-900">head Office</h1>
+                        <h1 class="sm:text-2xl text-sm font-medium title-font mb-4 text-center text-gray-900">Danstring Technologies Pvt.Ltd :</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
   )
 }
 

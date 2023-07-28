@@ -17,8 +17,8 @@ function App() {
        {/* <Footer /> */}
        {/* <Map /> */}
       
-       <Courses />
-       {/* <Section4/> */}
+       {/* <Courses /> */}
+       <Section4/>
 
     </div>
   );
